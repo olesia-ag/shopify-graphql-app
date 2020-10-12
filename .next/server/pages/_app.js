@@ -104,6 +104,18 @@ eval("module.exports = require(\"next/dist/next-server/lib/utils.js\");//# sourc
 
 /***/ }),
 
+/***/ "./components/ClientRouter.js":
+/*!************************************!*\
+  !*** ./components/ClientRouter.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @shopify/app-bridge-react */ \"@shopify/app-bridge-react\");\n/* harmony import */ var _shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_2__);\n\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\n\n\n\nfunction ClientRouter(props) {\n  const {\n    router\n  } = props;\n  return __jsx(_shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_2__[\"ClientRouter\"], {\n    history: router\n  });\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_1__[\"withRouter\"])(ClientRouter));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jb21wb25lbnRzL0NsaWVudFJvdXRlci5qcz81OGJlIl0sIm5hbWVzIjpbIkNsaWVudFJvdXRlciIsInByb3BzIiwicm91dGVyIiwid2l0aFJvdXRlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7QUFDQTs7QUFFQSxTQUFTQSxZQUFULENBQXNCQyxLQUF0QixFQUE2QjtBQUM1QixRQUFNO0FBQUVDO0FBQUYsTUFBYUQsS0FBbkI7QUFDQSxTQUFPLE1BQUMsc0VBQUQ7QUFBdUIsV0FBTyxFQUFFQztBQUFoQyxJQUFQO0FBQ0E7O0FBRWNDLDZIQUFVLENBQUNILFlBQUQsQ0FBekIiLCJmaWxlIjoiLi9jb21wb25lbnRzL0NsaWVudFJvdXRlci5qcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHdpdGhSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcic7XG5pbXBvcnQgeyBDbGllbnRSb3V0ZXIgYXMgQXBwQnJpZGdlQ2xpZW50Um91dGVyIH0gZnJvbSAnQHNob3BpZnkvYXBwLWJyaWRnZS1yZWFjdCc7XG5cbmZ1bmN0aW9uIENsaWVudFJvdXRlcihwcm9wcykge1xuXHRjb25zdCB7IHJvdXRlciB9ID0gcHJvcHM7XG5cdHJldHVybiA8QXBwQnJpZGdlQ2xpZW50Um91dGVyIGhpc3Rvcnk9e3JvdXRlcn0gLz47XG59XG5cbmV4cG9ydCBkZWZhdWx0IHdpdGhSb3V0ZXIoQ2xpZW50Um91dGVyKTtcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/ClientRouter.js\n");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
@@ -112,6 +124,39 @@ eval("module.exports = require(\"next/dist/next-server/lib/utils.js\");//# sourc
 /***/ (function(module, exports) {
 
 eval("function _interopRequireDefault(obj) {\n  return obj && obj.__esModule ? obj : {\n    \"default\": obj\n  };\n}\n\nmodule.exports = _interopRequireDefault;//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ub2RlX21vZHVsZXMvQGJhYmVsL3J1bnRpbWUvaGVscGVycy9pbnRlcm9wUmVxdWlyZURlZmF1bHQuanM/NGVhNCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBIiwiZmlsZSI6Ii4vbm9kZV9tb2R1bGVzL0BiYWJlbC9ydW50aW1lL2hlbHBlcnMvaW50ZXJvcFJlcXVpcmVEZWZhdWx0LmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gX2ludGVyb3BSZXF1aXJlRGVmYXVsdChvYmopIHtcbiAgcmV0dXJuIG9iaiAmJiBvYmouX19lc01vZHVsZSA/IG9iaiA6IHtcbiAgICBcImRlZmF1bHRcIjogb2JqXG4gIH07XG59XG5cbm1vZHVsZS5leHBvcnRzID0gX2ludGVyb3BSZXF1aXJlRGVmYXVsdDsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/@babel/runtime/helpers/interopRequireDefault.js\n");
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/dist/styles.css":
+/*!*******************************************************!*\
+  !*** ./node_modules/@shopify/polaris/dist/styles.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy9Ac2hvcGlmeS9wb2xhcmlzL2Rpc3Qvc3R5bGVzLmNzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/@shopify/polaris/dist/styles.css\n");
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris/locales/en.json":
+/*!*******************************************************!*\
+  !*** ./node_modules/@shopify/polaris/locales/en.json ***!
+  \*******************************************************/
+/*! exports provided: Polaris, default */
+/***/ (function(module) {
+
+eval("module.exports = JSON.parse(\"{\\\"Polaris\\\":{\\\"Avatar\\\":{\\\"label\\\":\\\"Avatar\\\",\\\"labelWithInitials\\\":\\\"Avatar with initials {initials}\\\"},\\\"Autocomplete\\\":{\\\"spinnerAccessibilityLabel\\\":\\\"Loading\\\"},\\\"Badge\\\":{\\\"PROGRESS_LABELS\\\":{\\\"incomplete\\\":\\\"Incomplete\\\",\\\"partiallyComplete\\\":\\\"Partially complete\\\",\\\"complete\\\":\\\"Complete\\\"},\\\"STATUS_LABELS\\\":{\\\"info\\\":\\\"Info\\\",\\\"success\\\":\\\"Success\\\",\\\"warning\\\":\\\"Warning\\\",\\\"critical\\\":\\\"Critical\\\",\\\"attention\\\":\\\"Attention\\\",\\\"new\\\":\\\"New\\\"}},\\\"Button\\\":{\\\"spinnerAccessibilityLabel\\\":\\\"Loading\\\",\\\"connectedDisclosureAccessibilityLabel\\\":\\\"Related actions\\\"},\\\"Common\\\":{\\\"checkbox\\\":\\\"checkbox\\\",\\\"undo\\\":\\\"Undo\\\",\\\"cancel\\\":\\\"Cancel\\\",\\\"newWindowAccessibilityHint\\\":\\\"(opens a new window)\\\",\\\"clear\\\":\\\"Clear\\\",\\\"close\\\":\\\"Close\\\",\\\"submit\\\":\\\"Submit\\\",\\\"more\\\":\\\"More\\\"},\\\"ContextualSaveBar\\\":{\\\"save\\\":\\\"Save\\\",\\\"discard\\\":\\\"Discard\\\"},\\\"DataTable\\\":{\\\"sortAccessibilityLabel\\\":\\\"sort {direction} by\\\",\\\"navAccessibilityLabel\\\":\\\"Scroll table {direction} one column\\\",\\\"totalsRowHeading\\\":\\\"Totals\\\",\\\"totalRowHeading\\\":\\\"Total\\\"},\\\"DatePicker\\\":{\\\"previousMonth\\\":\\\"Show previous month, {previousMonthName} {showPreviousYear}\\\",\\\"nextMonth\\\":\\\"Show next month, {nextMonth} {nextYear}\\\",\\\"today\\\":\\\"Today \\\",\\\"months\\\":{\\\"january\\\":\\\"January\\\",\\\"february\\\":\\\"February\\\",\\\"march\\\":\\\"March\\\",\\\"april\\\":\\\"April\\\",\\\"may\\\":\\\"May\\\",\\\"june\\\":\\\"June\\\",\\\"july\\\":\\\"July\\\",\\\"august\\\":\\\"August\\\",\\\"september\\\":\\\"September\\\",\\\"october\\\":\\\"October\\\",\\\"november\\\":\\\"November\\\",\\\"december\\\":\\\"December\\\"},\\\"days\\\":{\\\"monday\\\":\\\"Monday\\\",\\\"tuesday\\\":\\\"Tuesday\\\",\\\"wednesday\\\":\\\"Wednesday\\\",\\\"thursday\\\":\\\"Thursday\\\",\\\"friday\\\":\\\"Friday\\\",\\\"saturday\\\":\\\"Saturday\\\",\\\"sunday\\\":\\\"Sunday\\\"},\\\"daysAbbreviated\\\":{\\\"monday\\\":\\\"Mo\\\",\\\"tuesday\\\":\\\"Tu\\\",\\\"wednesday\\\":\\\"We\\\",\\\"thursday\\\":\\\"Th\\\",\\\"friday\\\":\\\"Fr\\\",\\\"saturday\\\":\\\"Sa\\\",\\\"sunday\\\":\\\"Su\\\"}},\\\"DiscardConfirmationModal\\\":{\\\"title\\\":\\\"Discard all unsaved changes\\\",\\\"message\\\":\\\"If you discard changes, you’ll delete any edits you made since you last saved.\\\",\\\"primaryAction\\\":\\\"Discard changes\\\",\\\"secondaryAction\\\":\\\"Continue editing\\\"},\\\"DropZone\\\":{\\\"overlayTextFile\\\":\\\"Drop file to upload\\\",\\\"overlayTextImage\\\":\\\"Drop image to upload\\\",\\\"errorOverlayTextFile\\\":\\\"File type is not valid\\\",\\\"errorOverlayTextImage\\\":\\\"Image type is not valid\\\",\\\"FileUpload\\\":{\\\"actionTitleFile\\\":\\\"Add file\\\",\\\"actionTitleImage\\\":\\\"Add image\\\",\\\"actionHintFile\\\":\\\"or drop files to upload\\\",\\\"actionHintImage\\\":\\\"or drop images to upload\\\",\\\"label\\\":\\\"Upload file\\\"}},\\\"EmptySearchResult\\\":{\\\"altText\\\":\\\"Empty search results\\\"},\\\"Frame\\\":{\\\"skipToContent\\\":\\\"Skip to content\\\",\\\"Navigation\\\":{\\\"closeMobileNavigationLabel\\\":\\\"Close navigation\\\"}},\\\"Icon\\\":{\\\"backdropWarning\\\":\\\"The {color} icon doesn’t accept backdrops. The icon colors that have backdrops are: {colorsWithBackDrops}\\\"},\\\"ActionMenu\\\":{\\\"RollupActions\\\":{\\\"rollupButton\\\":\\\"Actions\\\"}},\\\"Filters\\\":{\\\"moreFilters\\\":\\\"More filters\\\",\\\"moreFiltersWithCount\\\":\\\"More filters ({count})\\\",\\\"filter\\\":\\\"Filter {resourceName}\\\",\\\"noFiltersApplied\\\":\\\"No filters applied\\\",\\\"cancel\\\":\\\"Cancel\\\",\\\"done\\\":\\\"Done\\\",\\\"clearAllFilters\\\":\\\"Clear all filters\\\",\\\"clear\\\":\\\"Clear\\\",\\\"clearLabel\\\":\\\"Clear {filterName}\\\"},\\\"Modal\\\":{\\\"iFrameTitle\\\":\\\"body markup\\\",\\\"modalWarning\\\":\\\"These required properties are missing from Modal: {missingProps}\\\"},\\\"Pagination\\\":{\\\"previous\\\":\\\"Previous\\\",\\\"next\\\":\\\"Next\\\",\\\"pagination\\\":\\\"Pagination\\\"},\\\"ProgressBar\\\":{\\\"negativeWarningMessage\\\":\\\"Values passed to the progress prop shouldn’t be negative. Resetting {progress} to 0.\\\",\\\"exceedWarningMessage\\\":\\\"Values passed to the progress prop shouldn’t exceed 100. Setting {progress} to 100.\\\"},\\\"ResourceList\\\":{\\\"sortingLabel\\\":\\\"Sort by\\\",\\\"defaultItemSingular\\\":\\\"item\\\",\\\"defaultItemPlural\\\":\\\"items\\\",\\\"showing\\\":\\\"Showing {itemsCount} {resource}\\\",\\\"showingTotalCount\\\":\\\"Showing {itemsCount} of {totalItemsCount} {resource}\\\",\\\"loading\\\":\\\"Loading {resource}\\\",\\\"selected\\\":\\\"{selectedItemsCount} selected\\\",\\\"allItemsSelected\\\":\\\"All {itemsLength}+ {resourceNamePlural} in your store are selected.\\\",\\\"allFilteredItemsSelected\\\":\\\"All {itemsLength}+ {resourceNamePlural} in this filter are selected.\\\",\\\"selectAllItems\\\":\\\"Select all {itemsLength}+ {resourceNamePlural} in your store\\\",\\\"selectAllFilteredItems\\\":\\\"Select all {itemsLength}+ {resourceNamePlural} in this filter\\\",\\\"emptySearchResultTitle\\\":\\\"No {resourceNamePlural} found\\\",\\\"emptySearchResultDescription\\\":\\\"Try changing the filters or search term\\\",\\\"selectButtonText\\\":\\\"Select\\\",\\\"a11yCheckboxDeselectAllSingle\\\":\\\"Deselect {resourceNameSingular}\\\",\\\"a11yCheckboxSelectAllSingle\\\":\\\"Select {resourceNameSingular}\\\",\\\"a11yCheckboxDeselectAllMultiple\\\":\\\"Deselect all {itemsLength} {resourceNamePlural}\\\",\\\"a11yCheckboxSelectAllMultiple\\\":\\\"Select all {itemsLength} {resourceNamePlural}\\\",\\\"ariaLiveSingular\\\":\\\"{itemsLength} item\\\",\\\"ariaLivePlural\\\":\\\"{itemsLength} items\\\",\\\"Item\\\":{\\\"actionsDropdownLabel\\\":\\\"Actions for {accessibilityLabel}\\\",\\\"actionsDropdown\\\":\\\"Actions dropdown\\\",\\\"viewItem\\\":\\\"View details for {itemName}\\\"},\\\"BulkActions\\\":{\\\"actionsActivatorLabel\\\":\\\"Actions\\\",\\\"moreActionsActivatorLabel\\\":\\\"More actions\\\",\\\"warningMessage\\\":\\\"To provide a better user experience. There should only be a maximum of {maxPromotedActions} promoted actions.\\\"},\\\"FilterCreator\\\":{\\\"filterButtonLabel\\\":\\\"Filter\\\",\\\"selectFilterKeyPlaceholder\\\":\\\"Select a filter…\\\",\\\"addFilterButtonLabel\\\":\\\"Add filter\\\",\\\"showAllWhere\\\":\\\"Show all {resourceNamePlural} where:\\\"},\\\"FilterControl\\\":{\\\"textFieldLabel\\\":\\\"Search {resourceNamePlural}\\\"},\\\"FilterValueSelector\\\":{\\\"selectFilterValuePlaceholder\\\":\\\"Select a filter…\\\"},\\\"DateSelector\\\":{\\\"dateFilterLabel\\\":\\\"Select a value\\\",\\\"dateValueLabel\\\":\\\"Date\\\",\\\"dateValueError\\\":\\\"Match YYYY-MM-DD format\\\",\\\"dateValuePlaceholder\\\":\\\"YYYY-MM-DD\\\",\\\"SelectOptions\\\":{\\\"PastWeek\\\":\\\"in the last week\\\",\\\"PastMonth\\\":\\\"in the last month\\\",\\\"PastQuarter\\\":\\\"in the last 3 months\\\",\\\"PastYear\\\":\\\"in the last year\\\",\\\"ComingWeek\\\":\\\"next week\\\",\\\"ComingMonth\\\":\\\"next month\\\",\\\"ComingQuarter\\\":\\\"in the next 3 months\\\",\\\"ComingYear\\\":\\\"in the next year\\\",\\\"OnOrBefore\\\":\\\"on or before\\\",\\\"OnOrAfter\\\":\\\"on or after\\\"},\\\"FilterLabelForValue\\\":{\\\"past_week\\\":\\\"in the last week\\\",\\\"past_month\\\":\\\"in the last month\\\",\\\"past_quarter\\\":\\\"in the last 3 months\\\",\\\"past_year\\\":\\\"in the last year\\\",\\\"coming_week\\\":\\\"next week\\\",\\\"coming_month\\\":\\\"next month\\\",\\\"coming_quarter\\\":\\\"in the next 3 months\\\",\\\"coming_year\\\":\\\"in the next year\\\",\\\"on_or_before\\\":\\\"before {date}\\\",\\\"on_or_after\\\":\\\"after {date}\\\"}}},\\\"SkeletonPage\\\":{\\\"loadingLabel\\\":\\\"Page loading\\\"},\\\"Spinner\\\":{\\\"warningMessage\\\":\\\"The color {color} is not meant to be used on {size} spinners. The colors available on large spinners are: {colors}\\\"},\\\"Tabs\\\":{\\\"toggleTabsLabel\\\":\\\"More tabs\\\"},\\\"Tag\\\":{\\\"ariaLabel\\\":\\\"Remove {children}\\\"},\\\"TextField\\\":{\\\"characterCount\\\":\\\"{count} characters\\\",\\\"characterCountWithMaxLength\\\":\\\"{count} of {limit} characters used\\\"},\\\"TopBar\\\":{\\\"toggleMenuLabel\\\":\\\"Toggle menu\\\",\\\"SearchField\\\":{\\\"clearButtonLabel\\\":\\\"Clear\\\",\\\"search\\\":\\\"Search\\\"}},\\\"MediaCard\\\":{\\\"popoverButton\\\":\\\"Actions\\\"},\\\"VideoThumbnail\\\":{\\\"playButtonA11yLabel\\\":{\\\"default\\\":\\\"Play video\\\",\\\"defaultWithDuration\\\":\\\"Play video of length {duration}\\\",\\\"duration\\\":{\\\"hours\\\":{\\\"other\\\":{\\\"only\\\":\\\"{hourCount} hours\\\",\\\"andMinutes\\\":\\\"{hourCount} hours and {minuteCount} minutes\\\",\\\"andMinute\\\":\\\"{hourCount} hours and {minuteCount} minute\\\",\\\"minutesAndSeconds\\\":\\\"{hourCount} hours, {minuteCount} minutes, and {secondCount} seconds\\\",\\\"minutesAndSecond\\\":\\\"{hourCount} hours, {minuteCount} minutes, and {secondCount} second\\\",\\\"minuteAndSeconds\\\":\\\"{hourCount} hours, {minuteCount} minute, and {secondCount} seconds\\\",\\\"minuteAndSecond\\\":\\\"{hourCount} hours, {minuteCount} minute, and {secondCount} second\\\",\\\"andSeconds\\\":\\\"{hourCount} hours and {secondCount} seconds\\\",\\\"andSecond\\\":\\\"{hourCount} hours and {secondCount} second\\\"},\\\"one\\\":{\\\"only\\\":\\\"{hourCount} hour\\\",\\\"andMinutes\\\":\\\"{hourCount} hour and {minuteCount} minutes\\\",\\\"andMinute\\\":\\\"{hourCount} hour and {minuteCount} minute\\\",\\\"minutesAndSeconds\\\":\\\"{hourCount} hour, {minuteCount} minutes, and {secondCount} seconds\\\",\\\"minutesAndSecond\\\":\\\"{hourCount} hour, {minuteCount} minutes, and {secondCount} second\\\",\\\"minuteAndSeconds\\\":\\\"{hourCount} hour, {minuteCount} minute, and {secondCount} seconds\\\",\\\"minuteAndSecond\\\":\\\"{hourCount} hour, {minuteCount} minute, and {secondCount} second\\\",\\\"andSeconds\\\":\\\"{hourCount} hour and {secondCount} seconds\\\",\\\"andSecond\\\":\\\"{hourCount} hour and {secondCount} second\\\"}},\\\"minutes\\\":{\\\"other\\\":{\\\"only\\\":\\\"{minuteCount} minutes\\\",\\\"andSeconds\\\":\\\"{minuteCount} minutes and {secondCount} seconds\\\",\\\"andSecond\\\":\\\"{minuteCount} minutes and {secondCount} second\\\"},\\\"one\\\":{\\\"only\\\":\\\"{minuteCount} minute\\\",\\\"andSeconds\\\":\\\"{minuteCount} minute and {secondCount} seconds\\\",\\\"andSecond\\\":\\\"{minuteCount} minute and {secondCount} second\\\"}},\\\"seconds\\\":{\\\"other\\\":\\\"{secondCount} seconds\\\",\\\"one\\\":\\\"{secondCount} second\\\"}}}}}}\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuL25vZGVfbW9kdWxlcy9Ac2hvcGlmeS9wb2xhcmlzL2xvY2FsZXMvZW4uanNvbi5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/@shopify/polaris/locales/en.json\n");
+
+/***/ }),
+
+/***/ "./node_modules/next/app.js":
+/*!**********************************!*\
+  !*** ./node_modules/next/app.js ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__(/*! ./dist/pages/_app */ \"./node_modules/next/dist/pages/_app.js\")\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9ub2RlX21vZHVsZXMvbmV4dC9hcHAuanM/ZjAxNiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxpQkFBaUIsbUJBQU8sQ0FBQyxpRUFBbUIiLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9hcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoJy4vZGlzdC9wYWdlcy9fYXBwJylcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/next/app.js\n");
 
 /***/ }),
 
@@ -127,15 +172,82 @@ eval("\n\nvar _interopRequireDefault = __webpack_require__(/*! @babel/runtime/he
 
 /***/ }),
 
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/app */ \"./node_modules/next/app.js\");\n/* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @shopify/polaris */ \"@shopify/polaris\");\n/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_shopify_polaris__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @shopify/app-bridge-react */ \"@shopify/app-bridge-react\");\n/* harmony import */ var _shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _shopify_polaris_dist_styles_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @shopify/polaris/dist/styles.css */ \"./node_modules/@shopify/polaris/dist/styles.css\");\n/* harmony import */ var _shopify_polaris_dist_styles_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_shopify_polaris_dist_styles_css__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _shopify_polaris_locales_en_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @shopify/polaris/locales/en.json */ \"./node_modules/@shopify/polaris/locales/en.json\");\nvar _shopify_polaris_locales_en_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! @shopify/polaris/locales/en.json */ \"./node_modules/@shopify/polaris/locales/en.json\", 1);\n/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! js-cookie */ \"js-cookie\");\n/* harmony import */ var js_cookie__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(js_cookie__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _components_ClientRouter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/ClientRouter */ \"./components/ClientRouter.js\");\n\nvar __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;\n\n\n\n\n\n\n\n\n\nclass MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {\n  render() {\n    const {\n      Component,\n      pageProps\n    } = this.props;\n    const config = {\n      apiKey: \"9f2a6ec01206ef3c3394ba7bfe53ee78\",\n      shopOrigin: js_cookie__WEBPACK_IMPORTED_MODULE_7___default.a.get('shopOrigin'),\n      forceRedirect: true\n    };\n    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx(\"title\", null, \"Sample App\"), __jsx(\"meta\", {\n      charSet: \"utf-8\"\n    })), __jsx(_shopify_app_bridge_react__WEBPACK_IMPORTED_MODULE_4__[\"Provider\"], {\n      config: config\n    }, __jsx(_components_ClientRouter__WEBPACK_IMPORTED_MODULE_8__[\"default\"], null), __jsx(_shopify_polaris__WEBPACK_IMPORTED_MODULE_3__[\"AppProvider\"], {\n      i18n: _shopify_polaris_locales_en_json__WEBPACK_IMPORTED_MODULE_6__\n    }, __jsx(Component, pageProps))));\n  }\n\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (MyApp);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWdlcy9fYXBwLmpzP2Q1MzAiXSwibmFtZXMiOlsiTXlBcHAiLCJBcHAiLCJyZW5kZXIiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJwcm9wcyIsImNvbmZpZyIsImFwaUtleSIsIkFQSV9LRVkiLCJzaG9wT3JpZ2luIiwiQ29va2llcyIsImdldCIsImZvcmNlUmVkaXJlY3QiLCJ0cmFuc2xhdGlvbnMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQSxNQUFNQSxLQUFOLFNBQW9CQywrQ0FBcEIsQ0FBd0I7QUFDdkJDLFFBQU0sR0FBRztBQUNSLFVBQU07QUFBRUMsZUFBRjtBQUFhQztBQUFiLFFBQTJCLEtBQUtDLEtBQXRDO0FBQ0EsVUFBTUMsTUFBTSxHQUFHO0FBQ2RDLFlBQU0sRUFBRUMsa0NBRE07QUFFZEMsZ0JBQVUsRUFBRUMsZ0RBQU8sQ0FBQ0MsR0FBUixDQUFZLFlBQVosQ0FGRTtBQUdkQyxtQkFBYSxFQUFFO0FBSEQsS0FBZjtBQUtBLFdBQ0MsTUFBQyw0Q0FBRCxDQUFPLFFBQVAsUUFDQyxNQUFDLGdEQUFELFFBQ0Msa0NBREQsRUFFQztBQUFNLGFBQU8sRUFBQztBQUFkLE1BRkQsQ0FERCxFQUtDLE1BQUMsa0VBQUQ7QUFBVSxZQUFNLEVBQUVOO0FBQWxCLE9BQ0MsTUFBQyxnRUFBRCxPQURELEVBRUMsTUFBQyw0REFBRDtBQUFhLFVBQUksRUFBRU8sNkRBQVlBO0FBQS9CLE9BQ0MsTUFBQyxTQUFELEVBQWVULFNBQWYsQ0FERCxDQUZELENBTEQsQ0FERDtBQWNBOztBQXRCc0I7O0FBeUJUSixvRUFBZiIsImZpbGUiOiIuL3BhZ2VzL19hcHAuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQXBwIGZyb20gJ25leHQvYXBwJztcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XG5pbXBvcnQgeyBBcHBQcm92aWRlciB9IGZyb20gJ0BzaG9waWZ5L3BvbGFyaXMnO1xuaW1wb3J0IHsgUHJvdmlkZXIgfSBmcm9tICdAc2hvcGlmeS9hcHAtYnJpZGdlLXJlYWN0JztcbmltcG9ydCAnQHNob3BpZnkvcG9sYXJpcy9kaXN0L3N0eWxlcy5jc3MnO1xuaW1wb3J0IHRyYW5zbGF0aW9ucyBmcm9tICdAc2hvcGlmeS9wb2xhcmlzL2xvY2FsZXMvZW4uanNvbic7XG5pbXBvcnQgQ29va2llcyBmcm9tICdqcy1jb29raWUnO1xuaW1wb3J0IENsaWVudFJvdXRlciBmcm9tICcuLi9jb21wb25lbnRzL0NsaWVudFJvdXRlcic7XG5cbmNsYXNzIE15QXBwIGV4dGVuZHMgQXBwIHtcblx0cmVuZGVyKCkge1xuXHRcdGNvbnN0IHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSA9IHRoaXMucHJvcHM7XG5cdFx0Y29uc3QgY29uZmlnID0ge1xuXHRcdFx0YXBpS2V5OiBBUElfS0VZLFxuXHRcdFx0c2hvcE9yaWdpbjogQ29va2llcy5nZXQoJ3Nob3BPcmlnaW4nKSxcblx0XHRcdGZvcmNlUmVkaXJlY3Q6IHRydWUsXG5cdFx0fTtcblx0XHRyZXR1cm4gKFxuXHRcdFx0PFJlYWN0LkZyYWdtZW50PlxuXHRcdFx0XHQ8SGVhZD5cblx0XHRcdFx0XHQ8dGl0bGU+U2FtcGxlIEFwcDwvdGl0bGU+XG5cdFx0XHRcdFx0PG1ldGEgY2hhclNldD0ndXRmLTgnIC8+XG5cdFx0XHRcdDwvSGVhZD5cblx0XHRcdFx0PFByb3ZpZGVyIGNvbmZpZz17Y29uZmlnfT5cblx0XHRcdFx0XHQ8Q2xpZW50Um91dGVyIC8+XG5cdFx0XHRcdFx0PEFwcFByb3ZpZGVyIGkxOG49e3RyYW5zbGF0aW9uc30+XG5cdFx0XHRcdFx0XHQ8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG5cdFx0XHRcdFx0PC9BcHBQcm92aWRlcj5cblx0XHRcdFx0PC9Qcm92aWRlcj5cblx0XHRcdDwvUmVhY3QuRnJhZ21lbnQ+XG5cdFx0KTtcblx0fVxufVxuXG5leHBvcnQgZGVmYXVsdCBNeUFwcDtcbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+
+/***/ }),
+
 /***/ 0:
-/*!**********************************!*\
-  !*** multi next/dist/pages/_app ***!
-  \**********************************/
+/*!****************************************!*\
+  !*** multi private-next-pages/_app.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next/dist/pages/_app */"./node_modules/next/dist/pages/_app.js");
+module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_app.js");
 
+
+/***/ }),
+
+/***/ "@shopify/app-bridge-react":
+/*!********************************************!*\
+  !*** external "@shopify/app-bridge-react" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"@shopify/app-bridge-react\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJAc2hvcGlmeS9hcHAtYnJpZGdlLXJlYWN0XCI/MDY2YyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJAc2hvcGlmeS9hcHAtYnJpZGdlLXJlYWN0LmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwiQHNob3BpZnkvYXBwLWJyaWRnZS1yZWFjdFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///@shopify/app-bridge-react\n");
+
+/***/ }),
+
+/***/ "@shopify/polaris":
+/*!***********************************!*\
+  !*** external "@shopify/polaris" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"@shopify/polaris\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJAc2hvcGlmeS9wb2xhcmlzXCI/YTYyMyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJAc2hvcGlmeS9wb2xhcmlzLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKFwiQHNob3BpZnkvcG9sYXJpc1wiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///@shopify/polaris\n");
+
+/***/ }),
+
+/***/ "js-cookie":
+/*!****************************!*\
+  !*** external "js-cookie" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"js-cookie\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJqcy1jb29raWVcIj8wM2MxIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6ImpzLWNvb2tpZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcImpzLWNvb2tpZVwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///js-cookie\n");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"next/head\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJuZXh0L2hlYWRcIj81ZWYyIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6Im5leHQvaGVhZC5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIm5leHQvaGVhZFwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///next/head\n");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"next/router\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJuZXh0L3JvdXRlclwiP2Q4M2UiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEiLCJmaWxlIjoibmV4dC9yb3V0ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IHJlcXVpcmUoXCJuZXh0L3JvdXRlclwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///next/router\n");
 
 /***/ }),
 
